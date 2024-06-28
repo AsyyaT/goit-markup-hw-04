@@ -1,0 +1,157 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+
+    --accent-color: rgb(77, 90, 229);
+    --hover-color: rgb(64, 75, 191);
+    --secondary-color: rgb(46, 47, 66);
+    --green: rgb(49, 208, 170);
+    --text-color: rgb(67, 68, 85);
+    --light-slate: rgb(142, 143, 153);
+    --secondary-light: rgb(231, 233, 252);
+    --cloud: rgb(244, 244, 253);
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --primary-color: rgb(255, 255, 255);
+    --light-color: rgb(252, 252, 252);
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-weight: 500;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn-accent {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+
+.headers { 
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.align {
+    text-align: center;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-item {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.link:hover, .link:focus {
+    color: var(--hover-color);
+}
+
+
+.hero {
+    background-color: var(--secondary-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-color);
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.footer-logo {
+    color: var(--cloud)
+}
+.footer {
+    background-color: var(--secondary-color);
+}
+.footer-slogan {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    color: rgb(var(--white-cl));
+}
+
+.footer-text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
