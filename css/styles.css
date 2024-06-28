@@ -4,9 +4,9 @@
 
     --accent-color: rgb(77, 90, 229);
     --hover-color: rgb(64, 75, 191);
-    --secondary-color: rgb(46, 47, 66);
+    --secondary-dark-color: rgb(46, 47, 66);
     --green: rgb(49, 208, 170);
-    --text-color: rgb(67, 68, 85);
+    --text-secondary: rgb(67, 68, 85);
     --light-slate: rgb(142, 143, 153);
     --secondary-light: rgb(231, 233, 252);
     --cloud: rgb(244, 244, 253);
@@ -20,7 +20,6 @@ body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    font-weight: 500;
 }
 
 ul,
@@ -42,19 +41,15 @@ button {
     cursor: pointer;
 }
 
-
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
 }
+
 
 .btn {
     background-color: transparent;
@@ -62,6 +57,8 @@ button {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .btn-accent {
@@ -73,12 +70,13 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-weight: 700
 }
 .text {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--text-secondary);
 }
 .align {
     text-align: center;
@@ -87,13 +85,15 @@ button {
 .logo {
     font-family: var(--secondary-font);
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--accent-color);
 }
 
-.logo-accent {
-    color: var(--accent-color);
+.logo-dark {
+    color: var(--secondary-dark-color);
 }
 
 .nav-link {
@@ -105,7 +105,7 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 .link:hover, .link:focus {
@@ -113,7 +113,7 @@ button {
 }
 
 .hero {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-dark-color);
 }
 
 .hero-title {
@@ -141,7 +141,7 @@ button {
 }
 
 .footer {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-dark-color);
 }
 
 .footer-text {
