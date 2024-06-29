@@ -67,8 +67,8 @@ button {
     background-color: var(--accent-color);
 }
 
-.btn:hover, 
-.btn:focus {
+.button:hover, 
+.button:focus {
     background-color: var(--hover-color);
 }
 
@@ -136,6 +136,10 @@ button {
 
 .team-section {
     background-color: var(--cloud);
+}
+
+.team-item {
+    background-color: var(--light-color)
 }
 
 .common-title {
