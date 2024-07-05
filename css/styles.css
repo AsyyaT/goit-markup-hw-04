@@ -225,7 +225,6 @@ img {
 
 .additional-text {
     font-size: 16px;
-    margin-bottom: 30px;
 }
 
 /* #Hero */
@@ -255,11 +254,15 @@ img {
 }
 
 .values-item {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
     width: 264px;
+}
+
+.values-headers {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--secondary-dark-color);
     margin-bottom: 8px;
 }
 
